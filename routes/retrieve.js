@@ -5,7 +5,7 @@ var app = express();
 
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
-const url = 'mongodb+srv://seshu_varma:EastBay@12345@cluster0.z6rc3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const url = 'mongodb+srv://seshu_varma:EastBay12345@cluster0.z6rc3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 const client = new MongoClient(url);
 
